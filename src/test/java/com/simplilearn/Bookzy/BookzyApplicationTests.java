@@ -1,7 +1,5 @@
 package com.simplilearn.Bookzy;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
