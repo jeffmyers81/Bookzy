@@ -1,7 +1,7 @@
 package com.simplilearn.Bookzy;
 
 import org.junit.Test;
-import static org.junit.Assert;
+import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
 
@@ -15,7 +15,7 @@ class BookzyApplicationTests {
 	private BookzyApplication ticketer = new BookzyApplication();
 	@Test	 
 	public void testRandomNumber() {     	 
-   		Assert.assertTrue(ticketer.getRandomNumber()>1000&&ticketer.getRandomNumber()<9999);	 
+   		assertTrue(ticketer.getRandomNumber()>1000&&ticketer.getRandomNumber()<9999);	 
 	}	
 
 
