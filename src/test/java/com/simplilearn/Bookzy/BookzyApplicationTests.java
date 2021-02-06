@@ -15,7 +15,7 @@ class BookzyApplicationTests {
 	private BookzyApplication ticketer = new BookzyApplication();
 	@Test	 
 	public void testRandomNumber() {     	 
-   		Assert.assertTrue(ticketer.getRandomNumber()>1000&&ticketer.getRandomTicketNumber()<9999);	 
+   		Assert.assertTrue(ticketer.getRandomNumber()>1000&&ticketer.getRandomNumber()<9999);	 
 	}	
 
 
