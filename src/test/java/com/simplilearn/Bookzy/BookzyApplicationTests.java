@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 
 @SpringBootTest
-class BookzyApplicationTests {
+class BookzyApplicationTest {
 
 	@Test
 	void contextLoads() {
